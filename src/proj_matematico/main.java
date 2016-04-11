@@ -1,6 +1,5 @@
 package proj_matematico;
 
-import com.ibm.lang.management.TotalPhysicalMemoryNotificationInfo;
 
 public class main {
 
@@ -13,9 +12,9 @@ public class main {
 		
 			while (somaInteiro.limiteInicio <= somaInteiro.limiteFim) {
 				
-				int total = somaInteiro.limiteInicio++ ;
+				int total = somaInteiro.limiteInicio+(somaInteiro.limiteInicio++);
 				
-			System.out.printf("\nA soma dos valores é : " + total  );  
+			System.out.printf("\nA soma dos valores é : " + total );  
 				
 								
 				

@@ -4,7 +4,7 @@ public class ExercicioJava {
 	
 	int somaInteiro;
 	int limiteInicio = 0;
-	int limiteFim = 4;
+	int limiteFim = 50;
 	int total;
 	
 
