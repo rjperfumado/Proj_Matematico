@@ -3,9 +3,13 @@ package proj_matematico;
 
 public class ExercicioJava {
 
-	int somaInteiro;
-	int limiteInicio;
-	int limiteFim;
+	private int somaInteiro;
+	private int limiteInicio;
+	private int limiteFim;
+	private int numero1;
+	private int numero2;
+	private int nPar;
+	private int nImpar;
 
 	public int getSomaInteiro() {
 		return somaInteiro;
@@ -29,6 +33,43 @@ public class ExercicioJava {
 
 	public void setLimiteFim(int limiteFim) {
 		this.limiteFim = limiteFim;
+
+	}
+
+	public int getNumero1() {
+		return numero1;
+	}
+
+	public void setNumero1(int numero1) {
+		this.numero1 = numero1;
+	}
+
+	public int getNumero2() {
+		return numero2;
+	}
+
+	public void setNumero2(int numero2) {
+		this.numero2 = numero2;
+	}
+
+	public int getnPar() {
+		return nPar;
+	}
+
+	public void setnPar(int nPar) {
+		this.nPar = nPar;
+	}
+
+	public int getnImpar() {
+		return nImpar;
+	}
+
+	public void setnImpar(int nImpar) {
+		this.nImpar = nImpar;
+	}
+
+	public long CalculaPA() {
+		return (limiteInicio + limiteFim) * limiteFim / 2;
 	}
 
 }
